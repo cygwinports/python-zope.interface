@@ -1,0 +1,4 @@
+category: Python
+requires: cygwin python
+sdesc: "Zope interfaces library"
+ldesc: "Zope interfaces library"
