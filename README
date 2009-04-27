@@ -3,18 +3,19 @@ python-zope.interface
 Zope modular interface library
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  python-2.5.4-1
-  python-setuptools-0.6c9-1
-  python-zope.testing-3.7.1-1
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  python-2.5.4-10
+  python-setuptools-0.6c9-10
+  python-zope.testing-3.7.3-1
 
 Build requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.0-45
   binutils-20080624-2
-  cygport-0.4.3-1
-  gcc-core-3.4.4-3
-  python-2.5.4-1
-  python-setuptools-0.6c9-1
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  python-2.5.4-10
+  python-setuptools-0.6c9-10
 
 Canonical website:
   http://cheeseshop.python.org/pypi/zope.interface
@@ -25,28 +26,28 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-zope.interface-3.5.0-X-src.tar.bz2
+  unpack python-zope.interface-3.5.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-zope.interface-3.5.0-X.cygport all
+  cygport ./python-zope.interface-3.5.1-X.cygport all
 
 This will create:
-  /usr/src/python-zope.interface-3.5.0-X-src.tar.bz2
-  /usr/src/python-zope.interface-3.5.0-X.tar.bz2
+  /usr/src/python-zope.interface-3.5.1-X-src.tar.bz2
+  /usr/src/python-zope.interface-3.5.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.5/site-packages/zope.interface-3.5.0-py2.5-nspkg.pth
-  /usr/lib/python2.5/site-packages/zope.interface-3.5.0-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/zope.interface-3.5.0-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/zope.interface-3.5.0-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/zope.interface-3.5.0-py2.5.egg-info/namespace_packages.txt
-  /usr/lib/python2.5/site-packages/zope.interface-3.5.0-py2.5.egg-info/not-zip-safe
-  /usr/lib/python2.5/site-packages/zope.interface-3.5.0-py2.5.egg-info/requires.txt
-  /usr/lib/python2.5/site-packages/zope.interface-3.5.0-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/zope.interface-3.5.1-py2.5-nspkg.pth
+  /usr/lib/python2.5/site-packages/zope.interface-3.5.1-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/zope.interface-3.5.1-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/zope.interface-3.5.1-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/zope.interface-3.5.1-py2.5.egg-info/namespace_packages.txt
+  /usr/lib/python2.5/site-packages/zope.interface-3.5.1-py2.5.egg-info/not-zip-safe
+  /usr/lib/python2.5/site-packages/zope.interface-3.5.1-py2.5.egg-info/requires.txt
+  /usr/lib/python2.5/site-packages/zope.interface-3.5.1-py2.5.egg-info/top_level.txt
   /usr/lib/python2.5/site-packages/zope/interface/DEPENDENCIES.cfg
   /usr/lib/python2.5/site-packages/zope/interface/PUBLICATION.cfg
   /usr/lib/python2.5/site-packages/zope/interface/README.ru.txt
@@ -167,24 +168,15 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/zope/interface/verify.py
   /usr/lib/python2.5/site-packages/zope/interface/verify.pyc
   /usr/lib/python2.5/site-packages/zope/interface/verify.pyo
-  /usr/share/doc/python-zope.interface-3.5.0/Changes.txt
-  /usr/share/doc/python-zope.interface-3.5.0/README.txt
+  /usr/share/doc/python-zope.interface/Changes.txt
+  /usr/share/doc/python-zope.interface/README.txt
 
 ------------------
 
 Port Notes:
 
------ version 3.5.0-1 -----
-Version bump.
-
------ version 3.4.1-1 -----
-Version bump.
-
------ version 3.3.0.1-1 -----
-Version bump for python-2.5.
-
------ version 3.3.0-1 -----
-Initial release for Cygwin.
+----- version 3.5.1-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
