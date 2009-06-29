@@ -1,4 +1,4 @@
 category: Python
-requires: cygwin libgcc1 python python-setuptools
+requires: libgcc1 python python-setuptools
 sdesc: "Zope interfaces library"
 ldesc: "Zope interfaces library"
