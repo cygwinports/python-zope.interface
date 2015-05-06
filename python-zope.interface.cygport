@@ -1,7 +1,7 @@
 inherit distutils
 
 NAME="python-zope.interface"
-VERSION=4.0.3
+VERSION=4.1.2
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Zope interfaces library"
