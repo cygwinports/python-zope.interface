@@ -1,7 +1,7 @@
 inherit python-wheel
 
 NAME="python-zope.interface"
-VERSION=4.3.3
+VERSION=4.6.0
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Zope interfaces library"
